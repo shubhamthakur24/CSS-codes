@@ -1,0 +1,33 @@
+*{
+    color: chocolate;
+}
+div{
+    color: darkblue;
+}
+div{
+    font-size: 30px;
+}
+p
+{
+    font-size: 35px;
+    color:yellow;
+}
+#p2
+{
+    color: red;
+}
+#p3
+{
+    background-color:azure;
+    color: chartreuse;
+}
+.osmpara
+{
+    color: black;
+    background-color: lightpink;
+}
+.bigpara
+{
+    background-color: chartreuse;
+}
+
