@@ -1,0 +1,12 @@
+div{
+    background-color: lightcyan;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+#div3
+{
+    position: relative;
+    top:10px;
+    right: 10px;
+}
