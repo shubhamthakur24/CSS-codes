@@ -1,0 +1,20 @@
+.box
+{
+    margin: 20px;
+    padding: 10px;
+    border: solid black 3px;}
+#div1
+{
+    background-color: gray;
+    color: red;
+}
+#div2
+{
+    background-color: blue;
+    color: yellow;
+}
+#div3
+{
+    background-color: blueviolet;
+    color: thistle;
+}
