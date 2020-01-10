@@ -1,0 +1,39 @@
+div{
+    margin: 10px;
+}
+#div1
+{
+    background-color: orchid;
+    height: 50px;
+    width: 50px;
+}
+#div2
+{
+    background-color:darkslategrey;
+    height: 50px;
+    width: 50px;
+}
+#div3
+{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+}
+#div4
+{
+    background-color:yellow;
+    height: 50px;
+    width: 50px;
+}
+#div1:hover
+{
+    background-color:black;
+    height: 20px;
+    transition: height 2s, background 2s ;
+}
+#div2:hover +  div
+{
+background-color: burlywood;
+margin-bottom: 200px;
+transition: margin 2s;
+}
