@@ -1,0 +1,26 @@
+.container
+{
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    align-content: center;
+}
+.item
+{
+    background-color: chartreuse;
+    margin: 20px;
+    height: 40px;
+    width: 40px;
+    padding: 10pz;
+    font-size: 30px;
+    flex-shrink: 50;
+}
+#item11
+{
+    /*flex-grow: 30;*/
+    
+}
