@@ -16,7 +16,7 @@
 {
     flex-grow: 3;
     background-color: lightyellow;
-    font-size: 10pt;
+    font-size: 16pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
 @media(min-width:750px) and (max-width:1000px)
@@ -28,7 +28,7 @@
     }
     .container
     {
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
 @media(max-width:750px)
