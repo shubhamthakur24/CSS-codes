@@ -36,7 +36,7 @@
     </div>
     <br>
     <br>
-    <div class="btn-toolbar mb-100 " role="toolbar" aria-label="toolbar with buttonn group">
+    <div class="btn-toolbar" role="toolbar" aria-label="toolbar with buttonn group">
         <div class="btn-group mr-2" role="group" aria-label="first group">
             <button type="button" class="btn btn-secondary">1</button>
             <button type="button" class="btn btn-secondary">2</button>
@@ -47,5 +47,21 @@
             <input type="text" class="form-control" placeholder="input group example" aria-describedby="btngroupaddon">
         </div>
     </div>
+    <br>
+    <div class="btn-group-vertical" role="group" aria-label="group button with nasted drop">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+        <div class="btn-group" role="group">
+            <button id="btngroupgdrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown  
+            </button>
+        <div class="dropdown-menu" aria-labelledby="btngroupdrop1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+        </div>    
+        </div>
+    </div>
+
+
 </body>
-</html>
+</html> 
